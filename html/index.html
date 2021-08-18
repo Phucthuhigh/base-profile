@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="app ui container">
+        <div class="containerBox">
+            <div id="login-signup-box"  class="login-register">
+                <button id="login-btn" class="ui inverted primary massive button">Login</button>
+                <button id="register-btn" class="ui inverted red massive button">Register</button>
+            </div>
+            <div id="inform-box" class="ui cards">
+                <div class="card">
+                    <div class="content">
+                        <input type="file" id="file-input" style="display: none">
+                        <label for="file-input">
+                            <img id="avtimg" src="../img/white-image.png" class="right floated circular mini ui image">
+                        </label>
+                        <div id="name-inform" class="header">Elliot Fu</div>
+                        <div class="meta">Friends of ...</div>
+                        <div id="description" class="description">Elliot requested permission to view your contact details</div>
+                    </div>
+                    <div class="extra content">
+                        <div class="ui two buttons">
+                          <div id="logout-btn" class="ui inverted red button">Log out</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/index.js"></script>
+    <!-- Javascript Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+</body>
+</html>
