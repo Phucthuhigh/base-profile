@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div class="ui justified container">
+        <div class="app">
+            <h1 class="ui header">LOGIN</h1>
+            <form class="ui form">
+                <div class="column">
+                    <div class="field">
+                        <label class="label-field" for="email-input">Email</label>
+                        <div class="ui massive left icon input">
+                            <input id="email-input" type="email" placeholder="Email" class="information" required>
+                            <i class="envelope icon"></i>
+                        </div>
+                        <p id="email-error-message" class="error-message"></p>
+                    </div>
+                    <div class="field">
+                        <label class="label-field" for="password-input">Password</label>
+                        <div class="ui massive left icon input">
+                            <input id="password-input" type="password" placeholder="Password" class="information" required>
+                            <i class="lock icon"></i>
+                        </div>
+                        <p id="password-error-message" class="error-message"></p>
+                    </div>
+                    <p id="password-or-email-error-message" class="error-message"></p>
+                    <button id="login-button" class="ui inverted primary button" type="submit">LOGIN</button>
+                    <p id="change-register-link">Don't have an account? <a href="register.html">Register</a></p>
+                    <p id="reset-password-link">Forgot your password? <a href="emailReset.html">Reset Password</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="../js/login.js"></script>
+</body>
+</html>

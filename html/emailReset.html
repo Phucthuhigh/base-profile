@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="../css/emailReset.css">
+</head>
+<body>
+    <div class="ui justified container">
+        <div class="app">
+            <h1 class="ui header">EMAIL RESET</h1>
+            <form class="ui form">
+                <div class="column">
+                    <div class="field">
+                        <label class="label-field" for="email-input">Email</label>
+                        <div class="ui massive left icon input">
+                            <input id="email-input" type="email" placeholder="Email" class="information" required>
+                            <i class="envelope icon"></i>
+                        </div>
+                        <p class="error-message"></p>
+                    </div>
+                    <button id="reset-pass-btn" class="ui inverted primary button" type="submit">
+                        NEXT
+                        <i class="arrow-right angle double right icon"></i>
+                    </button>
+                    <a href="login.html" id="go-back">Go Back</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="../js/emailReset.js"></script>
+</body>
+</html>
